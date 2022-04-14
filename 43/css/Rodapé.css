@@ -1,0 +1,115 @@
+.rodape{
+    padding-top: 2em;
+    padding-top: 2em;
+    
+    text-align:center;
+    font-size: 0.7rem;
+}
+
+.rodape-logo{
+width: 11.25em;
+margin-bottom: 1em;
+}
+
+.rodape-lista-midias-sociais{
+    display:flex;
+    justify-content: center;
+}
+
+.rodape-infos-empresa{
+    line-height: 1.5;
+}
+
+
+.rodape-item-midias-sociais{
+    width: 2.62em;
+}
+
+.rodape-item-midias-sociais img{
+    width: 100%;
+}
+
+.rodape-titulo{
+    margin-bottom: 1em;
+    
+    font-size: 1.45em;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.rodape-item-lista{
+    font-weight: 500;
+    margin:0.625em 0;
+}
+
+.rodape-lista-midias-sociais {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.rodape-item-midias-sociais{
+    width: 2.62em;
+    margin:0. 25em;
+}
+
+@media(max-width: 640px){
+    .rodape-seção{
+        margin-top:2em;
+    }
+}
+
+@media(min-width:640px){
+    .rodape{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+
+        font-size:1em;
+        }
+        .rodape-seção-sobre,
+        .rodape-seção-cursos,
+        .rodape-seção-links,
+        .rodape-seção-newsletter{
+            width: 45%;
+        }
+        .rodape-seção-cursos{
+            order:1;
+            margin:0;
+        }
+        .rodape-seção-links{
+            order:2;
+            margin:0;
+        }
+        .rodape-seção-sobre{
+            order:3;
+            margin-top:2em;
+        }
+        .rodape-seção-newsletter{
+            order:4;
+            margin-top:2em;
+        }
+}
+
+@media(min-width: 1200px){
+    .rodape{
+        display:flex;
+        justify-content: space-between;
+        font-size: 0.85rem;
+
+        text-align: left;
+    }
+    .rodape-titulo{
+        font-size: 1em;
+    }
+    .rodape-lista-midias-socias{
+        justify-content: left;
+    }
+    .rodape-seção{
+        margin-top: 0;
+    }
+    .rodape-seção{
+        margin-left: 2em;
+    }
+}
